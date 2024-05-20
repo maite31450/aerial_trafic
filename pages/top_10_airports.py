@@ -11,7 +11,7 @@ with st.sidebar:
 
 st.title("Quels sont les aéroports européens les plus importants")
 
-trafic_passengers = pd.read_csv(r'C:\Users\MAITE\Wild Code School\hack\trafic_passengers.csv')
+trafic_passengers = pd.read_csv(r'C:\Users\MAITE\Wild Code School\hack\aerial_trafic\trafic_passengers.csv')
 
 #create second temporari df to highlight 10 best european airport according yearly sum of passagers carried
 trafic_by_airport = trafic_passengers.groupby(['YEAR', 'airport', 'country_name']).agg(NB_PAS_carried = ('OBS_VALUE','sum'))

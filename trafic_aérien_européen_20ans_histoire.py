@@ -20,7 +20,7 @@ st.title("Etude sur l'évolution du trafic aérien européen")
 
 #st.markdown("<h1 style='text-align: center; color: teal;'>Etude sur l'évolution du trafic aérien européen</h1>", unsafe_allow_html=True)
 
-trafic_passengers = pd.read_csv(r'C:\Users\MAITE\Wild Code School\hack\trafic_passengers.csv')
+trafic_passengers = pd.read_csv(r'C:\Users\MAITE\Wild Code School\hack\aerial_trafic\trafic_passengers.csv')
 
 
 #creer temporari df group by years to follow evolution of global trafic year after year

@@ -10,8 +10,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 #Partis a remplacer avec votre propre chemin de avion_clean
-chemin_csv = 'C:\\Users\MAITE\Wild Code School\hack\\avion_clean.csv'
-chemin_geojson = 'C:\\Users\MAITE\Wild Code School\hack\\europe.geojson'
+chemin_csv = 'C:\\Users\MAITE\Wild Code School\hack\aerial_trafic\avion_clean.csv'
+chemin_geojson = 'C:\\Users\MAITE\Wild Code School\hack\aerial_trafic\europe.geojson'
 
 ############################################ Class Pays ###################################################
 
