@@ -10,8 +10,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 #Partis a remplacer avec votre propre chemin de avion_clean
-chemin_csv = 'C:\\Users\MAITE\\Wild Code School\\hack\\aerial_trafic\\avion_clean.csv'
-chemin_geojson = r'C:\Users\MAITE\Wild Code School\hack\aerial_trafic\europe.geojson'
+chemin_csv = 'avion_clean.csv'
+chemin_geojson = 'europe.geojson'
 
 ############################################ Class Pays ###################################################
 
@@ -54,7 +54,7 @@ class Pays:
 #################################################################################################################
 
 #Ouverture de la base de donnée des voyageurs
-df_avion = pd.read_csv(r'C:\Users\MAITE\Wild Code School\hack\aerial_trafic\avion_clean.csv')
+df_avion = pd.read_csv('avion_clean.csv')
 df_avion = df_avion.replace(': ', value= None) #Ligne plus utile, je crois
 
 #Définition de variables utilisé dans les graphiques
